@@ -2,6 +2,9 @@ server:
   port: 8081
 
 spring:
+  application:
+    name: category-service
+
   datasource:
     url: jdbc:mysql://category-mysql:3306/categorydb?createDatabaseIfNotExist=true
     username: root
