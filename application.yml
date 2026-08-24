@@ -9,7 +9,6 @@ management:
     web:
       exposure:
         include: "*"
-        
 
   endpoint:
     health:
@@ -18,8 +17,3 @@ management:
 info:
   app:
     version: 1.0
-
-eureka:
-  client:
-    service-url:
-      defaultZone: http://eureka-server:8761/eureka/
